@@ -1,4 +1,4 @@
-import asyncio
+wnimport asyncio
 import importlib
 
 from pyrogram import idle
@@ -50,7 +50,7 @@ async def init():
         pass
     await Slayer.decorators()
     LOGGER("SlayerX").info(
-        "SlayerX Music Bot Started Successfully, JOIN @TechPiroBot"
+        "SlayerX Music Bot Started Successfully, JOIN @TechPiroBots"
     )
     await idle()
     await app.stop()
