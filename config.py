@@ -29,10 +29,6 @@ OWNER_ID = int(getenv("OWNER_ID", None))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-
-UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://graph.org/file/18f328a0cfee2a0feb0f1.jpg",
-)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
