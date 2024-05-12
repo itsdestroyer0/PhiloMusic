@@ -25,3 +25,4 @@ youtube-search
 youtube-search-python
 telethon
 httpx==0.25.2
+httpx[http2]
