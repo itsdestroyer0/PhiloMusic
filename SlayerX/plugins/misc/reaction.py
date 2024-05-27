@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 import random
-from AnonXMusic import app
+from SlayerX import app
 
 emjs = ["😭", "❤️", "🥰", "👏", "🤬", "💋", "🔥", "👍", "🤔", "👀", "😁",]
 
